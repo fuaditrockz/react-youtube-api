@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+p {
+  font-size: 12px;
+  color: #646464 !important;
+}
+h1 {
+  font-size: 20px !important;
+}
+h2 {
+  font-size: 18px !important;
+}
+h3 {
+  font-size: 16px !important;
+}
+h4 {
+  font-size: 14px !important;
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1180px !important;
+  }
+}
+.container {
+  padding: 0 !important;
+}
+.input-search {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.input-search input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+.embed-responsive {
+  margin-bottom: 20px;
+}
+.details p {
+  
+}
+.list-group-item {
+  cursor: pointer;
+}
+.media-body p {
+  width: 84%;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
