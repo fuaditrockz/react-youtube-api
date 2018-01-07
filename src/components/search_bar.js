@@ -1,25 +1,23 @@
 import React, { Component } from 'react'
 
-const user = "Fuadit's Account: "
-
 class SearchBar extends Component {
-  constructor(props){
+  constructor (props) {
     super(props)
     this.state = {
       type: 'please type here!'
     }
   }
-  onInputChange(term) {
+  onInputChange (term) {
     this.setState({term})
     this.props.onSearchTermChange(term)
   }
-  render() {
+  render () {
     return (
-      <div className="input-search" >
-        <input 
-          placeholder="Search anything videos..."
+      <div className='input-search' >
+        <input
+          placeholder='Search anything videos...'
           value={this.state.term}
-          onChange={event => this.onInputChange(event.target.value)} 
+          onChange={event => this.onInputChange(event.target.value)}
         />
       </div>
     )
