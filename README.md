@@ -1,4 +1,5 @@
-# React Youtube API
+# React Youtube 
+Fetch the data and connecting into 'Search' components. And view it into the list.
 
 ### Getting Started
 
@@ -8,8 +9,8 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/fuaditrockz/react-youtube-api.git
+> cd react-youtube-api
 > npm install
 > npm start
 ```
